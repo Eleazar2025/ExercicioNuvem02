@@ -1,8 +1,9 @@
 # Informações do produto
-nome_produto = "Camiseta"
-preco_original = 50.00
-percentual_desconto = 20  # em %
-
+nome_produto = input("Digite o nome do produto: ") #camiseta
+preco_original = input("Digite o preço original: ") #50.00
+preco_original = int(preco_original)
+percentual_desconto = input("Digite o percentual de desconto em % : ")# 20  %
+percentual_desconto = float(percentual_desconto)
 # Cálculo do valor de desconto e preço final
 valor_desconto = preco_original * (percentual_desconto / 100)
 preco_final = preco_original - valor_desconto

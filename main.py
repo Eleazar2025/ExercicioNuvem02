@@ -1,7 +1,10 @@
 # Valores fornecidos
-valor_reais = 100.00  # Valor em reais
-taxa_dolar = 5.20     # Cotação do dólar
-taxa_euro = 6.15      # Cotação do euro
+valor_reais = input("Digite o valor em reais: ") #100.00  # Valor em reais
+taxa_dolar = input("Digite a taxa do dólar: ") #5.20     # Cotação do dólar
+taxa_euro = input("Digite a taxa do euro: ") #6.15      # Cotação do euro
+valor_reais = float(valor_reais)
+taxa_dolar= float(taxa_dolar)
+taxa_euro= float(taxa_euro)
 
 # Conversão dos valores
 valor_em_dolar = valor_reais / taxa_dolar
